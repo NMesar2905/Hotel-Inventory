@@ -12,7 +12,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CommentComponent implements OnInit {
 
-  comments$ !: Observable<Comments[]>;
+  // comments$ !: Observable<Comments[]>;
   comment$ !: Observable<Comments[]>; 
 
   constructor(private commentService: CommentService,
